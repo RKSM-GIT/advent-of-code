@@ -1,0 +1,1 @@
+C:\Users\rksme\Desktop\Rust\ Projects\advent-of-code\2022\day-02\target\debug\part-2.exe: C:\Users\rksme\Desktop\Rust\ Projects\advent-of-code\2022\day-02\src\bin\part-2.rs C:\Users\rksme\Desktop\Rust\ Projects\advent-of-code\2022\day-02\src\lib.rs
