@@ -1,4 +1,6 @@
-/target/
+/target
+target/
+.rustc_info.json
 **/*.rs.bk
 Cargo.lock
 .idea/

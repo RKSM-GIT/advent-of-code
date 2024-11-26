@@ -1,6 +1,3 @@
-use std::collections::BinaryHeap;
-use std::cmp::Reverse;
-
 pub fn process_part1(input: &str) -> String {
     "works".to_string()
 }
@@ -17,14 +14,16 @@ mod tests {
     #[test]
     fn part1_test() {
         let input = fs::read_to_string("./sample_input.txt").unwrap();
-
-        assert_eq!(process_part1(&input), "15");
+        let res = process_part1(&input);
+        println!("Result 1: {res}");
+        assert_eq!(res, "15");
     }
 
     #[test]
     fn part2_test() {
         let input = fs::read_to_string("./sample_input.txt").unwrap();
-
-        assert_eq!(process_part2(&input), "");
+        let res = process_part2(&input);
+        println!("Result 2: {res}");
+        assert_eq!(res, "");
     }
 }
